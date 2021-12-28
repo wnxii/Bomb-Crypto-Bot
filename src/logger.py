@@ -1,5 +1,4 @@
 from datetime import datetime
-import sys
 import yaml
 import os
 from discord_webhook import DiscordWebhook, DiscordEmbed

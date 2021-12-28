@@ -3,3 +3,4 @@ numpy~=1.21.5
 mss~=6.1.0
 PyAutoGUI~=0.9.53
 opencv-python~=4.5.4.60
+discord-webhook~=0.14.0
