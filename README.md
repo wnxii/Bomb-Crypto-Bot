@@ -12,7 +12,8 @@ This bot/script is currently private and won't be public for a while as I'm stil
 - Dynamic screen polling, does not use a routine check like mpcabete's
 - Able to recover from any type of error regardless
 - Highly configuarable script with tons of settings in the config
-- Logs are saved locally or sent to discord through webhook
+- Logs are saved locally or sent to discord through webhook\
+- New maps are automatically screenshotted and saved
 - Errors are automatically screenshotted and saved
 - Chest profits are periodically screenshotted, saved and sent to discord webhook
 - Searching multiple image positions that takes about 0.3s~ on a 4k resolution monitor
@@ -32,3 +33,11 @@ pip install -r requirements.txt
 ```
 python main.py
 ```
+
+## **Screenshots**
+![Script](https://github.com/mawenxi2112/Bomb-Crypto-Bot/blob/main/readme-images/login.png)
+![Discord Log](https://github.com/mawenxi2112/Bomb-Crypto-Bot/blob/main/readme-images/log.png)
+![Discord New Map](https://github.com/mawenxi2112/Bomb-Crypto-Bot/blob/main/readme-images/map.png)
+![Discord Chest Profits](https://github.com/mawenxi2112/Bomb-Crypto-Bot/blob/main/readme-images/chest.png)
+
+
