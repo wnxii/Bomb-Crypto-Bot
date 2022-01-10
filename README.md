@@ -4,15 +4,15 @@ An automation sccript that is incorporated with P2E NFT game Bomb Crypto. I'm al
 
 This script was inspired and uses small sections of code from [mpcabete's script](https://github.com/mpcabete/bombcrypto-bot) but I have implemented my own script from scratch and the flow is targetted at being efficient, light-weight and optimized.
 
-This bot/script is currently private and won't be public for a while as I'm still deciding between monetizing it or releasing it free for public usage.
+This bot/script is currently private and won't be public, thus source code has been removed.
 
 ## **Features**
 - Automated script with the lowest downtime
 - Sends only heroes that has green stamina bar to work
-- Dynamic screen polling, does not use a routine check like mpcabete's
+- Dynamic screen polling, does not do actions based on a fixed routine
 - Able to recover from any type of error regardless
 - Highly configuarable script with tons of settings in the config
-- Logs are saved locally or sent to discord through webhook\
+- Logs are saved locally and/or sent to discord through webhook
 - New maps are automatically screenshotted and saved
 - Errors are automatically screenshotted and saved
 - Chest profits are periodically screenshotted, saved and sent to discord webhook
