@@ -7,7 +7,7 @@ import mss
 import pyautogui
 import time
 
-logger.log("Bomb Crypto Bot v1.0 by wenxi#9300", "log", "white")
+logger.log("Bomb Crypto Bot v1.1 by wenxi#9300", "log", "white")
 
 # Load config and images
 logger.log("Initializing config...", "debug")
@@ -226,10 +226,10 @@ def capture_prompt_image(prompt_type):
     logger.send_screenshot_webhook(snapshot_area(x, y, int(width), int(height), "images/" + prompt_type + "/"), prompt_type)
 
 
-def capture_map():
+def capture_screen_and_send(capture_type):
     with mss.mss() as sct:
         monitor = sct.monitors[1]
-        logger.send_screenshot_webhook(snapshot_area(monitor['left'], monitor['top'], monitor['width'], monitor['height'], "images/new_map/"), "new_map")
+        logger.send_screenshot_webhook(snapshot_area(monitor['left'], monitor['top'], monitor['width'], monitor['height'], "images/" + capture_type + "/"), capture_type)
 
 
 def open_chest_and_capture():
@@ -242,7 +242,7 @@ def open_chest_and_capture():
 def do_prompt():
     global prompt_popup
 
-    capture_prompt_image("error")
+    capture_screen_and_send("error")
 
     if click_image("ok", timeout=0):
         logger.log("Abnormal popup detected", "warning")
@@ -259,7 +259,7 @@ def do_new_map():
     logger.log("Detected new map", "log")
     click_image("new-map")
     time.sleep(2)
-    capture_map()
+    capture_screen_and_send("new_map")
 
 
 def do_in_game():

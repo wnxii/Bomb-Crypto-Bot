@@ -50,7 +50,7 @@ threshold:
    
     avatar_bar_tolerance: 0.9
     
-    box_tolerance: 0.9
+    box_tolerance: 0.8
 
 
 log:

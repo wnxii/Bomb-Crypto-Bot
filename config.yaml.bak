@@ -88,7 +88,7 @@ log:
     
     discord_log_webhook: "https://discord.com/api/webhooks/924191525494210611/mB2XktnFOD9xuYrI_XZttDwrL_VO6w0hc-TwFeBph-C9YCkdRvGBzFCHq27rw22u32Fk"
     
-    discord_error_webhook: "https://discord.com/api/webhooks/925090845282172979/P4WOGaqTMDZ6ujGJsl9Q4nqZQdTy8jxWwAy-uVy4mz5QFjqQNUL6uWbmNgZ7T7Vv3-L_"
+    discord_error_webhook: "https://discord.com/api/webhooks/925129166070902824/_ctyby06tFR1i9ekzKFn2PZRra6t3B63XllInGoN8Z-OKtYV9set8NZdxdcTWyZL1F-C"
     
     discord_new_map_webhook: "https://discord.com/api/webhooks/925091069962637402/j-QFoG5uArEMFwNNCf2evlGoLqzRuFlOJulI00zuZSyBYF6Xzs1MrpJkcpLyhCX0DCA4"
     
