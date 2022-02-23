@@ -283,6 +283,8 @@ def do_login():
 
     click_image("connect-wallet", timeout=0)
 
+    click_image("metamask-connect", timeout=5)
+
     if click_image("select-wallet-2", timeout=15):
         logger.log("Signing into metamask and loading into game!", "success")
 
@@ -315,7 +317,7 @@ def process_current_screen():
     elif find_image("new-map", 0)[0]:
         current_screen = "new-map"
         do_new_map()
-    elif find_image("in-game-cog", 0)[0]:
+    elif find_image("btn-back", 0)[0]:
         current_screen = "in-game"
         do_in_game()
     elif find_image("connect-wallet", 0)[0]:
